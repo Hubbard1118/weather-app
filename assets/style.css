@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 header {
     background-color: violet;
     width: 100%;
@@ -13,17 +14,16 @@ header {
     text-align: center;
 }
 
-.wrapper{
+.wrapper {
     display: flex;
-    height: fit-content;
+    height: 888px;
     width: 100%;
 }
 
 aside {
     width: 35%;
-    padding: 3px;
+    padding: 4px;
 }
-
 
 section {
     width: 65%;
@@ -34,7 +34,14 @@ section {
 .display {
     height: 200px;
 }
+
 .forecast {
     height: 200px;
+}
+
+.city-selections {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
 }
 
