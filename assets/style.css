@@ -3,5 +3,34 @@
 
 * {
     font-family: 'Gabarito', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: violet;
+    width: 100%;
+    font-size: 38px;
+    justify-content: center;
+}
+
+.wrapper{
+    display: flex;
+    height: fit-content;
+    width: 100%;
+}
+
+aside {
+    width: 35%;
+}
+
+section {
+    width: 65%;
+}
+
+.display {
+    height: 200px;
+}
+.forecast {
+    height: 200px;
 }
 
