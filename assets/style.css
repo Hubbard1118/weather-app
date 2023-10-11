@@ -10,7 +10,7 @@ header {
     background-color: violet;
     width: 100%;
     font-size: 38px;
-    justify-content: center;
+    text-align: center;
 }
 
 .wrapper{
@@ -21,10 +21,14 @@ header {
 
 aside {
     width: 35%;
+    padding: 3px;
 }
+
 
 section {
     width: 65%;
+    padding: 3px;
+
 }
 
 .display {
